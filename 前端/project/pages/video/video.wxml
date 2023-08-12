@@ -1,0 +1,16 @@
+<!--pages/video/video.wxml-->
+<view class="main">
+      
+    <!-- 播放本地视频或网络视频，src是链接<video  id="myVideo"  src="{{src}}" danmu-list="{{danmuList}}" enable-danmu  danmu-btncontrols>
+    </video> -->
+    
+    <view class="footerbtn">
+        <button type="primary" bindtap="chooseVideo">选择视频</button>
+        <button type="primary" bindtap="reloadThisPage">目标检测</button>
+    </view>
+
+    <image  id="myVideo"  src="{{'http://10.3.4.163:5000/video_feed'}}" >
+    </image>
+
+</view>
+

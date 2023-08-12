@@ -1,0 +1,9 @@
+<view class="container">
+  <button bindtap='img_w_show' class="bottom">选择图片并检测</button>
+  
+  <view class='img_li' wx:for="{{imglist}}" wx:key="{{index}}">
+    <image src="{{item}}"></image>
+    <image src='{{request_data}}'></image>
+  </view>
+
+</view>
